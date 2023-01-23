@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap");
+header {
+  box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.75);
+}
+header nav > div #navbarCentro > ul > li {
+  transition: all 0.3s 0s ease;
+}
+header nav > div #navbarCentro > ul > li:hover {
+  transform: scale(1.3);
+}
+header nav > div #navbarCentro #nav-logo {
+  width: 190px;
+  height: 60px;
+}
+header nav > div #navbarDerecha > a > #linkedin-ico {
+  cursor: pointer;
+  transition: all 0.3s 0s ease;
+}
+header nav > div #navbarDerecha > a > #linkedin-ico:hover {
+  transform: scale(1.3);
+}
+header nav > div #navbarDerecha > a > #github-ico {
+  cursor: pointer;
+  transition: all 0.3s 0s ease;
+}
+header nav > div #navbarDerecha > a > #github-ico:hover {
+  transform: scale(1.3);
+}
+header > #banner {
+  width: 100%;
+  height: 93vh;
+  background-image: url(../IMG/BANNER/banner-osman-dev.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header > #banner > #contenedor-soy {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  line-height: 70px;
+  height: 70px;
+  overflow: hidden;
+}
+header > #banner > #contenedor-soy > #txtEstatico {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 70px;
+  height: 70px;
+  color: #6DB5E7;
+}
+header > #banner > #contenedor-soy > #txtDinamico {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 70px;
+  height: 70px;
+}
+header > #banner > #contenedor-soy > #txtDinamico li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 70px;
+  height: 70px;
+  list-style: none;
+  color: white;
+  position: relative;
+  top: 0;
+  background-color: #224C8D;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-animation: slide 8s steps(2) infinite;
+          animation: slide 8s steps(2) infinite;
+}
+@-webkit-keyframes slide {
+  100% {
+    top: -140px;
+  }
+}
+@keyframes slide {
+  100% {
+    top: -140px;
+  }
+}
+header > #banner > #contenedor-soy > #txtDinamico li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 4px solid white;
+  background-color: #224C8D;
+  -webkit-animation: typing 4s steps(22) infinite;
+          animation: typing 4s steps(22) infinite;
+}
+@-webkit-keyframes typing {
+  40%, 60% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes typing {
+  40%, 60% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+main #sobreMi > div {
+  height: 100%;
+}
+main #sobreMi > div > div:nth-child(1) {
+  height: 100%;
+}
+main #sobreMi > div > div:nth-child(2) {
+  height: 100%;
+}
+main #sobreMi > div > div:nth-child(2) > #sobreMiDescripcion > h2 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+}
+main #sobreMi > div > div:nth-child(2) #habilidadesDescripcion > h2 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+}
+main #sobreMi > div > div:nth-child(3) {
+  height: 100%;
+}
+main #proyectos {
+  box-shadow: 0px -2px 8px 2px rgba(0, 0, 0, 0.75);
+}
+main #proyectos > div {
+  height: 100%;
+}
+main #proyectos > div > div:nth-child(2) > h2 {
+  font-family: "Teko", sans-serif;
+  color: #6DB5E7;
+}
+main #proyectos > div > div:nth-child(2) > div div .cartas-proyecto {
+  transition: all 0.3s 0s ease;
+}
+main #proyectos > div > div:nth-child(2) > div div .cartas-proyecto:hover {
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+}
+main #proyectos > div > div:nth-child(2) > div div .cartas-proyecto a {
+  overflow: hidden;
+}
+main #proyectos > div > div:nth-child(2) > div div .cartas-proyecto a img {
+  transition: all 0.3s 0s ease;
+}
+main #proyectos > div > div:nth-child(2) > div div .cartas-proyecto a img:hover {
+  transform: scale(1.3);
+}
+main #contacto {
+  height: 100vh;
+  box-shadow: 0px -2px 8px 2px rgba(0, 0, 0, 0.75);
+}
+main #contacto > div {
+  height: 100%;
+}
+main #contacto > div > form:nth-child(1) {
+  height: 100%;
+}
+main #contacto > div > form:nth-child(1) > h2:nth-child(1) {
+  font-family: "Teko", sans-serif;
+}
+main #contacto > div > form:nth-child(1) #ulDatos {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+main #contacto > div > form:nth-child(1) #ulDatos li {
+  font-size: 0.85em;
+}
+main #contacto > div > form:nth-child(1) #loadingGif {
+  visibility: hidden;
+}
+main #contacto > div > div:nth-child(2) {
+  background-color: #212529;
+  height: 100%;
+}/*# sourceMappingURL=styles.css.map */

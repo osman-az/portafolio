@@ -1,0 +1,1662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <title>Osmán Azuaje: Frontend Dev</title>
+  </head>
+<body>
+    <!-- HEADER -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-dark">
+            <div class="container-fluid d-flex justify-content-center">
+                <img id="nav-logo" src="./IMG/HEADER/osman-dev.png" alt="Logo"
+                    class="d-flex justify-content-center align-text-top col-8 col-md-2 col-lg-1">
+                <div class="collapse navbar-collapse col col-lg-9 d-flex justify-content-center" id="navbarCentro">
+                    <ul class="navbar-nav d-flex justify-content-center fs-5">
+                        <!-- <li class="nav-item mx-2">
+                                    <a class="nav-link text-light text-uppercase" href="#">inicio</a>
+                                </li> -->
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-light text-uppercase" href="#sobreMi">sobre mi</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-light text-uppercase" href="#proyectos">proyectos</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-light text-uppercase" href="#contacto">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse col col-lg-2 d-flex justify-content-center col row-lg"
+                    id="navbarDerecha">
+
+                    <a href="https://www.linkedin.com/in/osman-az/" target="_blank">
+                        <img id="linkedin-ico" src="./IMG/HEADER/icons-linkedin.png" alt="Linkedin" width="55"
+                            height="55" class="d-inline-block align-text-top">
+                    </a>
+
+                    <a href="https://github.com/osman-az" target="_blank">
+                        <img id="github-ico" src="./IMG/HEADER/icons-github.png" alt="Github" width="55" height="55"
+                            class="d-inline-block align-text-top">
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- BANNER -->
+        <div id="banner" class="banner">
+            <img class="border border-white border-5 rounded-circle col-10 col-md-2" src="./IMG/BANNER/Osman-Foto.png"
+                alt="Osmán Azuaje">
+            <h1 class="my-4">Mi nombre es Osmán Azuaje</h1>
+            <div id="contenedor-soy" class="col-10">
+                <div id="txtEstatico" class="fw-bold fs-4 fs-md-3">Soy&ensp;</div>
+                <ul id="txtDinamico">
+                    <li><span class="fw-bold fs-4 fs-md-3">Ingeniero de Sistemas</span></li>
+                    <li><span class="fw-bold fs-4 fs-md-3">Desarrollador Frontend</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- MAIN    -->
+    <main>
+
+        <!-- SOBRE MI -->
+        <section id="sobreMi" class="container-fluid mb-5">
+            <div class="row">
+                <div class="col col-lg-2 d-none d-lg-block"></div>
+
+                <div class="col col-lg-8">
+                    <div class="my-5" id="sobreMiDescripcion">
+                        <h2 class="text-center text-uppercase fs-1 fw-bolder mb-4">sobre mi</h2>
+                        <p class="text-md-start fs-5">
+                            Cuento con las herramientas necesarias para crear aplicaciones Web usando <strong>HTML, CSS,
+                                preprocesadores, JavaScript, jQuery y Responsive Design,</strong> que sirvan de FrontEnd
+                            a un Backend
+                            creado
+                            en cualquier lenguaje de programación, que le permita consumir y suplir datos a una API
+                            Rest,
+                            haciendo uso de las mejores prácticas del desarrollo de software.
+                            <br><br>
+                            Con muchas ganas de aprender y aportar soluciones nuevas y actuales con tecnologías
+                            emergentes. Sé
+                            administrar mi tiempo, cuento con la capacidad para aprender siendo autodidacta,
+                            creatividad,
+                            diligencia, comunicación y persuasión efectiva.
+                            <br><br>
+                            Busco ofrecer y desarrollar todas mis capacidades, consiguiendo un excelente resultado en la
+                            labor y
+                            el área asignada, así también adquirir a través de la confianza en mi depositada, una
+                            experiencia
+                            invaluable, con la cual conseguiré dar un paso extremadamente importante en mi superación
+                            personal y
+                            del equipo.
+                            <br><br>
+                            Profesional en ingeniería de sistemas egresado de la <strong>Universidad Bicentenaria de
+                                Aragua
+                                (UBA)</strong>.
+                        </p>
+                    </div>
+                    <div id="habilidadesDescripcion" class="mt-5">
+                        <h2 class="text-center text-uppercase fs-2 fw-bolder mb-4">habilidades</h2>
+                        <div id="contenedorHabilidades">
+
+                            <!-- NIVEL 1 -->
+                            <div id="habNivel1" class="row gap-3 gap-md-5 justify-content-center">
+
+                                <!-- 1.- Button PROGRAMACION ORIENTADA A OBJETOS trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#progOrientObjModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/1-prog-orientada-objetos.png"
+                                        alt="Programación orientada a objetos" width="40" height="40">
+                                    Programación Orientada a Objetos
+                                </button>
+
+                                <!-- 1.- Modal PROGRAMACION ORIENTADA A OBJETOS -->
+                                <div class="modal fade" id="progOrientObjModal" tabindex="-1"
+                                    aria-labelledby="progOrientObjModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/1-prog-orientada-objetos.png"
+                                                    alt="Programación orientada a objetos" width="30" height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2"
+                                                    id="progOrientObjModalLabel">Programación orientada a objetos</h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Objetos</li>
+                                                    <li>Atributos</li>
+                                                    <li>Métodos</li>
+                                                    <li>Trabajo con variables</li>
+                                                    <li>Entradas y salidas</li>
+                                                    <li>Métodos setters</li>
+                                                    <li>Métodos getters</li>
+                                                    <li>Instrucciones condicionales</li>
+                                                    <li>Instrucciones iterativas</li>
+                                                    <li>Clases</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2.- Button GIT trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#gitModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/2-git.png"
+                                        alt="Programación orientada a objetos" width="40" height="40">
+                                    Git
+                                </button>
+
+                                <!-- 2.- Modal GIT -->
+                                <div class="modal fade" id="gitModal" tabindex="-1" aria-labelledby="gitModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/2-git.png" alt="Programación orientada a objetos"
+                                                    width="30" height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="gitModalLabel">Git</h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Conceptos implicados en el control de versiones</li>
+                                                    <li>Comandos de Git</li>
+                                                    <li>Creación repositorios locales y remotos</li>
+                                                    <li>Creación de repositorios en Github, etc</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 3.- Button Javascript trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#javascriptModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/3-javascript.png" alt="Javascript" width="40"
+                                        height="40">
+                                    Javascript
+                                </button>
+
+                                <!-- 3.- Javascript -->
+                                <div class="modal fade" id="javascriptModal" tabindex="-1"
+                                    aria-labelledby="javascriptModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/3-javascript.png" alt="Javascript" width="30"
+                                                    height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="javascriptModalLabel">
+                                                    Javascript
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Herramientas de desarrollo</li>
+                                                    <li>Variables y tipos de datos</li>
+                                                    <li>Funciones matemáticas</li>
+                                                    <li>Instrucciones condicionales</li>
+                                                    <li>Interacción con el usuario</li>
+                                                    <li>Manipulación de Strings</li>
+                                                    <li>Ciclos</li>
+                                                    <li>Arreglos</li>
+                                                    <li>Funciones</li>
+                                                    <li>Eventos</li>
+                                                    <li>Dom</li>
+                                                    <li>Window open</li>
+                                                    <li>Formularios</li>
+                                                    <li>Manipular tablas</li>
+                                                    <li>Agregar elementos al Dom</li>
+                                                    <li>Validación de formularios</li>
+                                                    <li>Expresiones regulares</li>
+                                                    <li>Apis</li>
+                                                    <li>Api Rest</li>
+                                                    <li>Promesas</li>
+                                                    <li>Fetch</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- NIVEL 2 -->
+                            <div id="habNivel2" class="row gap-3 gap-md-5 mt-3 mt-md-5 justify-content-center">
+
+                                <!-- 4.- Button HTML 5 trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#htmlModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/4-html5.png" alt="HTML 5" width="40"
+                                        height="40">
+                                    HTML 5
+                                </button>
+
+                                <!-- 4.- Modal HTML 5 -->
+                                <div class="modal fade" id="htmlModal" tabindex="-1" aria-labelledby="htmlModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/4-html5.png" alt="HTML 5" width="30" height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="htmlModalLabel">HTML 5
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Contenido de la página web</li>
+                                                    <li>Maquetación</li>
+                                                    <li>Insertar imágenes</li>
+                                                    <li>Enlazar documentos</li>
+                                                    <li>Listas o Viñetas</li>
+                                                    <li>Tipografías: Fuentes y texto</li>
+                                                    <li>Insertar audio y video</li>
+                                                    <li>Tablas</li>
+                                                    <li>Formularios</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5.- Button CSS 3 trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#csslModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/5-css3.png" alt="CSS 3" width="40" height="40">
+                                    CSS 3
+                                </button>
+
+                                <!-- 5.- Modal CSS 3 -->
+                                <div class="modal fade" id="csslModal" tabindex="-1" aria-labelledby="csslModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/5-css3.png" alt="CSS 3" width="30" height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="csslModalLabel">CSS 3
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Estilos</li>
+                                                    <li>Modelo de caja</li>
+                                                    <li>Posicionamiento de elementos</li>
+                                                    <li>Posicionamiento de elemento según su flujo</li>
+                                                    <li>Posicionamiento exacto de elementos</li>
+                                                    <li>Control del orden de apilamiento y comportamiento</li>
+                                                    <li>Visualización</li>
+                                                    <li>Selectores avanzados</li>
+                                                    <li>Selectores avanzados según el atributo</li>
+                                                    <li>Selectores con pseudo-clases</li>
+                                                    <li>Efectos especiales</li>
+                                                    <li>Transformación de elemento</li>
+                                                    <li>Transiciones de elementos</li>
+                                                    <li>Responsive web design</li>
+                                                    <li>Media queries</li>
+                                                    <li>Media types</li>
+                                                    <li>Configuración del viewport</li>
+                                                    <li>Flexbox</li>
+                                                    <li>Grid</li>
+                                                    <li>Estructuras de diseño responsive</li>
+                                                    <li>Metodologías CSS</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 6.- Button Bootstrap trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#bootstrapModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/6-bootstrap.png" alt="Bootstrap" width="40"
+                                        height="40">
+                                    Bootstrap
+                                </button>
+
+                                <!-- 6.- Modal Bootstrap -->
+                                <div class="modal fade" id="bootstrapModal" tabindex="-1"
+                                    aria-labelledby="bootstrapModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/6-bootstrap.png" alt="Bootstrap" width="30"
+                                                    height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="bootstrapModalLabel">
+                                                    Bootstrap
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Utilidades de texto y fondo</li>
+                                                    <li>Utilidades de margen y padding</li>
+                                                    <li>Display y visibility</li>
+                                                    <li>Grid</li>
+                                                    <li>Botones</li>
+                                                    <li>Barra de navegación</li>
+                                                    <li>Dropdown</li>
+                                                    <li>Formularios</li>
+                                                    <li>List group</li>
+                                                    <li>Card, accordion y collapse</li>
+                                                    <li>Carousel</li>
+                                                    <li>Ventana modal</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- NIVEL 3 -->
+                            <div id="habNivel3" class="row gap-3 gap-md-5 mt-3 mt-md-5 justify-content-center">
+
+                                <!-- 7.- Button SASS trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#sassModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/7-sass.png" alt="SASS" width="40" height="40">
+                                    SASS
+                                </button>
+
+                                <!-- 7.- Modal SASS -->
+                                <div class="modal fade" id="sassModal" tabindex="-1" aria-labelledby="sassModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/7-sass.png" alt="SASS" width="30" height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="sassModalLabel">SASS
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Preprocesadores</li>
+                                                    <li>Anidamiento</li>
+                                                    <li>Trabajo con variables</li>
+                                                    <li>@import</li>
+                                                    <li>@extend</li>
+                                                    <li>Operadores</li>
+                                                    <li>Directivas de control</li>
+                                                    <li>Mapas</li>
+                                                    <li>Mixins</li>
+                                                    <li>Funciones</li>
+                                                    <li>Depuración</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 8.- Button JQuery trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#jQueryModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/8-jquery.png" alt="JQuery" width="40"
+                                        height="40">
+                                    JQuery
+                                </button>
+
+                                <!-- 8.- JQuery -->
+                                <div class="modal fade" id="jQueryModal" tabindex="-1"
+                                    aria-labelledby="jQueryModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/8-jquery.png" alt="JQuery" width="30"
+                                                    height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="jQueryModalLabel">
+                                                    JQuery
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Manipular el HTML</li>
+                                                    <li>Manipular Estilos</li>
+                                                    <li>Efectos</li>
+                                                    <li>Objetos en JavaScript</li>
+                                                    <li>Función Constructora</li>
+                                                    <li>JSON</li>
+                                                    <li>Almacenamiento Local</li>
+                                                    <li>Ejecución Automática</li>
+                                                    <li>Manejo de Fechas</li>
+                                                    <li>Ajax usando jQuery</li>
+                                                    <li>Formularios con jQuery</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 9.- Button Ajax trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#ajaxModal">
+                                    <img class="mx-3 rounded" src="./IMG/SKILLS/9-ajax.jpg" alt="Ajax" width="40"
+                                        height="40">
+                                    Ajax
+                                </button>
+
+                                <!-- 9.- Ajax -->
+                                <div class="modal fade" id="ajaxModal" tabindex="-1" aria-labelledby="ajaxModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <img class="rounded" src="./IMG/SKILLS/9-ajax.jpg" alt="Ajax" width="30"
+                                                    height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="ajaxModalLabel">Ajax
+                                                </h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>Tecnologías hay involucradas y qué papel juegan: XHTML, CSS,
+                                                        DOM, XMLHttpRequest, JSON y Javascript</li>
+                                                    <li>Implementar peticiones a un servidor y manejar la información
+                                                        recibida</li>
+                                                    <li>Manejo de distintos formatos en que pueden recibirse y
+                                                        procesarse las respuestas del servidor</li>
+                                                    <li>Ajax usando jQuery</li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- NIVEL 4 -->
+                            <div id="habNivel4" class="row gap-3 gap-md-5 mt-3 mt-md-5 justify-content-center">
+
+                                <!-- 10.- Button FUNDAMENTOS PROGRAMACION trigger modal -->
+                                <button type="button"
+                                    class="btn btn-dark col-8 col-lg d-flex justify-content-start align-items-center fs-5 py-4 py-md-3"
+                                    data-bs-toggle="modal" data-bs-target="#FundProgModal">
+                                    <img class="mx-3" src="./IMG/SKILLS/10-fundamentos-programacion.png"
+                                        alt="Fundamentos de programación" width="40" height="40">
+                                    Fundamentos de Programación
+                                </button>
+
+                                <!-- 10.- Modal FUNDAMENTOS PROGRAMACION -->
+                                <div class="modal fade" id="FundProgModal" tabindex="-1"
+                                    aria-labelledby="FundProgModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content  bg-dark">
+                                            <div class="modal-header">
+                                                <img src="./IMG/SKILLS/10-fundamentos-programacion.png"
+                                                    alt="Fundamentos de programación" width="30" height="30">
+                                                <h1 class="modal-title fs-5 text-light ms-2" id="FundProgModalLabel">
+                                                    Fundamentos de programación</h1>
+                                                <button type="button" class="btn-close btn-close-white"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="text-light">
+                                                    <li>
+                                                        Tengo los conceptos fundamentales de la programación de
+                                                        aplicaciones, que me permite aplicar el pensamiento algorítmico
+                                                        para resolver problemas usando programas de computadora.
+                                                    </li>
+                                                    <br>
+                                                    <li>
+                                                        Total comprensión de los paradigmas de programación, tales
+                                                        como: control de versiones usando Git, la programación
+                                                        estructurada y la programación orientada a objetos, además de
+                                                        conocer el HTML y el CSS, que es el lenguaje más utilizado para
+                                                        crear interfaces de usuario, todo esto necesario para crear
+                                                        aplicaciones tanto del FrontEnd como del BackEnd.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-2 d-none d-lg-block"></div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section id="proyectos" class="container-fluid bg-dark bg-opacity-75">
+            <div class="row">
+                <div class="col col-lg-2 d-none d-lg-block"></div>
+
+                <!-- CONTENIDO -->
+                <div class="col">
+                    <h2 class="text-center text-uppercase fs-1 fw-bolder mb-4 mt-5 text-info">PROYECTOS</h2>
+                    <p id="ejem" class="text-center fw-bold pb-2 text-light border-bottom border-info border-5">
+                        Ejercicios</p>
+                    <div class="container-fluid mt-5">
+
+                        <!-- NIVEL 1 -->
+                        <div class="row gap-5 justify-content-center">
+
+                            <!-- PROYECTO 1: Consultor de Users de la API-REST reqres.in -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p1Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p1-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Consultor de Users de la API-REST reqres.in</h5>
+                                    <p class="card-text">Frontend Web que usa la <strong>API-Rest</strong> del sitio web
+                                        reqres.in. Para consultar users y modificarlos.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>Bootstrap, Javascript, HTML, CSS, jQuery, SASS, SweetAlert, Fetch</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 1: Consultor de Users de la API-REST reqres.in -->
+                            <div class="modal fade" id="p1Modal" tabindex="-1" aria-labelledby="p1ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p1ModalLabel">Consultor de Users de la
+                                                API-REST reqres.in</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p1-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p1ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/API-UsersConsultant-reqres.in" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 1: Consultor de Users de la API-REST reqres.in -->
+                            <div class="modal fade" id="p1ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p1ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p1ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Usando la <strong>API-Rest</strong> del sitio web https://reqres.in/ que
+                                                contiene la documentación de un API pública. He creado un archivo HTML
+                                                nuevo y un archivo <strong>JS</strong> para programar las instrucciones
+                                                necesarias para cumplir con los siguientes requerimientos, utilizando
+                                                <strong>Bootstrap</strong> para la maquetación, <strong>fetch</strong>
+                                                para hacer las peticiones al backend, <strong>jQuery</strong> para
+                                                manipular el <strong>HTML</strong> y <strong>SweetAlert</strong> para
+                                                mostrar avisos al usuario.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Al cargar la página (ready), mostrar el listado de todos los "users"
+                                                    (Read de todos los recursos, es decir, un get de todos los
+                                                    recursos). Mostrar una imagen loading mientras llega la respuesta y
+                                                    luego esconder la imagen de loading cuando se muestren los
+                                                    resultados.</li><br>
+                                                <li>Botón con el texto "Agregar" que muestra una ventana modal con
+                                                    inputs necesarios para introducir los datos de un nuevo "user". En
+                                                    la ventana modal esta el botón "Guardar" que hace un llamado al API
+                                                    para registrar el nuevo "user" (Create de un recurso, es decir, un
+                                                    post de un recurso). Cuando la respuesta es exitosa, se muestra un
+                                                    mensaje de éxito y esconder la ventana modal, en caso contrario, se
+                                                    muestra un mensaje de error y mantiene visible la ventana modal. Si
+                                                    el registro es exitoso, el nuevo registro debe aparecer al final del
+                                                    listado del objetivo anterior.</li><br>
+                                                <li>Al hacer click sobre un "user", se muestra una ventana modal con
+                                                    inputs necesarios para modificar los datos del "user". En la ventana
+                                                    modal colocar un botón "Guardar" que haga un llamado al API para
+                                                    modificar el "user". Para lograrlo, debe hacer un llamado al API
+                                                    para obtener los datos del "user" sobre el cual se hizo click (Read
+                                                    de un recurso especifico, es decir, get de un recurso particular
+                                                    usando su identificador único). Al llegar la respuesta del backend,
+                                                    se debe mostrar en los inputs ventana modal inicializados con los
+                                                    datos recibidos del backend, para que el usuario pueda modificarlos.
+                                                </li><br>
+                                                <li>Al hacer click en el botón "Guardar", se hace un llamado al API para
+                                                    hacer update de los datos del usuario (Update de un recurso). Al
+                                                    llegar la respuesta del API, mostrar un mensaje de éxito o error
+                                                    dependiendo de la respuesta.</li><br>
+                                                <li>Al lado de cada usuario, un botón que permita eliminar ese "user"
+                                                    (Delete de un recurso usando su identificador único). Está
+                                                    programado que al hacer click sobre ese botón, hacer un llamado al
+                                                    API para eliminar ese "user". Si la respuesta es exitosa, se debe
+                                                    eliminar ese usuario del listado (mostrar una imagen de loading
+                                                    mientras llega la respuesta).</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p1Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PROYECTO 2: Building a House? -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p2Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p2-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Building a House?</h5>
+                                    <p class="card-text">Página que utilizando el preprocesador <strong>SASS</strong>
+                                        permite generar, hojas de estilo, añadiéndoles características que no tiene CSS,
+                                        que son propias de los lenguajes de programación.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>HTML, CSS, SASS</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 2: Building a House? -->
+                            <div class="modal fade" id="p2Modal" tabindex="-1" aria-labelledby="p2ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p2ModalLabel">Building a House?</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p2-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p2ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/Building-a-House" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 2: Building a House? -->
+                            <div class="modal fade" id="p2ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p2ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p2ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Creación de un Frontend Web, utilizando en preprocesador
+                                                <strong>SASS</strong> que permite generar, de manera automática, hojas
+                                                de estilo, añadiéndoles características que no tiene CSS, y que son
+                                                propias de los lenguajes de programación.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Se crearon 2 mapas, uno llamado coloresPar y otro llamado
+                                                    coloresImpar. En ellos se crearon dos colores en cada uno con un
+                                                    nombre significativo para su uso.</li><br>
+                                                <li>Se realizo una estructura condicional que permita manejar la lógica
+                                                    para los colores pares e impares para ser manejados según se indica
+                                                    en el punto 3</li><br>
+                                                <li>Un ciclo que permita establecer el color de los recuadros de la
+                                                    maqueta indicada, con el uso de la estructura condicional solicitada
+                                                    en el punto 2.</li><br>
+                                                <li>Se estableció un mixin para dar estilo al título "Building a
+                                                    House?".</li><br>
+                                                <li>Mixin para dar estilo de los elementos dentro de los recuadros de
+                                                    colores.</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p2Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PROYECTO 3: CADIF1: Consultar Registros -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p3Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p3-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">CADIF1: Consultar Registros</h5>
+                                    <p class="card-text">FrontEnd Web alternativo a la empresa CADI F1, que usa los
+                                        datos que se obtienen del <strong>API</strong> de prueba api.cadif1.com</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>Javascript, HTML, CSS, jQuery, Ajax, SASS, SweetAlert</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 3: CADIF1: Consultar Registros -->
+                            <div class="modal fade" id="p3Modal" tabindex="-1" aria-labelledby="p3ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p3ModalLabel">CADIF1: Consultar Registros
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p3-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p3ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/CADIF1-Consult-Registers" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 3: Building a House? -->
+                            <div class="modal fade" id="p3ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p3ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p3ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                FrontEnd Web alternativo a la empresa CADI F1, usando los datos que se
+                                                obtienen del API https://api.cadif1.com. Se creó un archivo index con un
+                                                navbar con 4 opciones: Principal, Cursos, Carreras y Registro, y un div
+                                                vacío. Se crearon 4 archivos HTML adicionales al index: uno con el
+                                                nombre secciones.html para mostrar las secciones que están por comenzar,
+                                                otro con el nombre cursos.html para mostrar los cursos que dicta la
+                                                academia, otro con nombre registro.html y otro con el nombre
+                                                carreras.html para mostrar las carreras.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Usando el método load de <strong>jQuery</strong>, al hacer click en
+                                                    su respectiva opción (Principal -> secciones.html, Cursos ->
+                                                    cursos.html, Carreras -> carreras.html, Registro -> registro.html),
+                                                    se cargan en el div vacío del index, el HTML de cada página,
+                                                    mostrando inicialmente (es decir, en el ready del index) el
+                                                    contenido del archivo secciones.html. No hay hipervínculos
+                                                    tradicionales con el atributo href apuntando al archivo HTML porque
+                                                    se muestra el contenido HTML de cada página sin que cambie la URL en
+                                                    el navegador.</li><br>
+                                                <li>Usando getJson de <strong>jQuery</strong>, se obtiene y muestra en
+                                                    cada página lo que retorna el ENDPOINT correspondiente: en
+                                                    secciones.html lo que retorna https://api.cadif1.com/seccion, en
+                                                    cursos.html lo que retorna https://api.cadif1.com/curso y
+                                                    carreras.html lo que retorna https://api.cadif1.com/carrera.</li>
+                                                <br>
+                                                <li>Creado el archivo HTML registro.html que permite a un alumno
+                                                    registrarse como interesado a un curso. En este archivo agrega un
+                                                    formulario HTML para solicitar los datos personales del alumno
+                                                    (cédula, nombre y correo) y también tiene un SELECT con las áreas de
+                                                    estudio disponibles en la academia, en otro SELECT los cursos
+                                                    disponibles en la academia.</li><br>
+                                                <li>Se validan que los datos del formulario no estén vacíos antes de
+                                                    enviarlos. Se muestran los mensajes de error de validaciones con
+                                                    <strong>SweetAlert</strong>. Si todo es válido, mostrar un confirm
+                                                    usando <strong>SweetAlert</strong>. Si el usuario responde que sí,
+                                                    usando el método $.post de <strong>jQuery</strong> se envían los
+                                                    datos al endpoint https://api.cadif1.com/test.
+                                                </li><br>
+                                                <li>Si el registro es exitoso, se programó que se muestre un mensaje de
+                                                    éxito y se limpie el formulario, pero si el registro no es exitoso,
+                                                    se muestra un mensaje de error y no se borra el formulario. Los
+                                                    mensajes de error se muestran usando <strong>SweetAlert</strong>.
+                                                </li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p3Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- NIVEL 2 -->
+                        <div class="row gap-5 my-5  justify-content-center">
+
+                            <!-- PROYECTO 4: BlogLife - Formula 1 -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p4Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p4-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">BlogLife - Formula 1</h5>
+                                    <p class="card-text">Página Web que utiliza estructuras de diseño responsive y
+                                        metodologías <strong>CSS</strong>.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>HTML, CSS</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 4: BlogLife - Formula 1 -->
+                            <div class="modal fade" id="p4Modal" tabindex="-1" aria-labelledby="p4ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p4ModalLabel">BlogLife - Formula 1</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p4-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p4ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/BlogLife-Formula1" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 4: BlogLife - Formula 1 -->
+                            <div class="modal fade" id="p4ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p4ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p4ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Creación de un Frontend Web, utilizando estructuras de diseño responsive
+                                                y metodologías <strong>CSS</strong>.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Se ejecutó con el conocimiento adquirido referente a la estructura
+                                                    de diseño <strong>Tiny Tweaks</strong>, se ajustaron los tamaños de
+                                                    la fuente para que se aprecien bien según el tamaño del dispositivo.
+                                                </li><br>
+                                                <li>En la hoja de estilo (en base al punto anterior) esta lo necesario
+                                                    para generar la vista móvil de dicha plantilla.</li><br>
+                                                <li>La hoja de estilos está escrita bajo una de las metodologías de
+                                                    escritura en <strong>CSS: (+++SMACSS)</strong>.</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p4Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PROYECTO 5: Memory Game -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p5Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p5-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Memory Game</h5>
+                                    <p class="card-text">Para simular el famoso juego de cartas llamado MEMORIA,
+                                        haciendo uso de la modificación del DOM usando solo <strong>Javascript</strong>.
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>Javascript, HTML, CSS, jQuery</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 5: Memory Game -->
+                            <div class="modal fade" id="p5Modal" tabindex="-1" aria-labelledby="p5ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p5ModalLabel">Memory Game</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p5-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p5ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/Memory-Game" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 5: Memory Game -->
+                            <div class="modal fade" id="p5ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p5ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p5ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Para simular el famoso juego de cartas llamado MEMORIA, haciendo uso de
+                                                la modificación del DOM usando solo <strong>Javascript</strong>.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Botón con el texto "Iniciar partida", que averigüe la fecha y hora
+                                                    actual de la computadora para tomarla como momento de inicio del
+                                                    juego. Mostrar en la página la cantidad de tiempo que se tiene
+                                                    jugando. El texto del botón debe cambiar a "Reiniciar partida".</li>
+                                                <br>
+                                                <li>Al momento de iniciar la partida, se deben repartir las cartas
+                                                    aleatoriamente, de modo que, en cada partida, las cartas no estén en
+                                                    el mismo lugar.</li><br>
+                                                <li>Cuando un usuario hace click sobre una carta boca abajo y luego hace
+                                                    click sobre otra carta boca abajo, si la segunda carta es igual que
+                                                    la primera, se debe mostrar un mensaje de éxito y se debe
+                                                    incrementar un contador. Si el usuario vuelve a hacer click sobre
+                                                    una carta que pertenece a una pareja que ya ha sido encontrada, el
+                                                    programa no debe hacer nada. Si la segunda carta volteada no es
+                                                    igual que la primera, se debe mostrar un mensaje de error y ambas
+                                                    cartas deben volver a voltearse boca abajo.</li><br>
+                                                <li>Cuando el usuario consiga todas las parejas, debe mostrar un mensaje
+                                                    con el texto "Ganaste" y detener el contador de tiempo. Se debe
+                                                    buscar en el <strong>local storage</strong> si hay algún tiempo
+                                                    almacenado, en caso de haber un tiempo almacenado, se debe comparar
+                                                    ese tiempo almacenado con el tiempo de juego actual. Si el tiempo de
+                                                    juego actual es menor al tiempo almacenado, se muestra un mensaje al
+                                                    usuario informando que batió el record y se debe actualizar el valor
+                                                    de tiempo almacenado con el valor de tiempo actual, en caso
+                                                    contrario, se mantiene el record.</li><br>
+                                                <li>En cualquier momento que el usuario haga click en el botón
+                                                    "Reiniciar partida", se deben voltear todas las cartas, reiniciar el
+                                                    tiempo de juego y el contador de cartas encontradas, así como volver
+                                                    a colocar en el botón el texto "Iniciar partida".</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p5Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PROYECTO 6: Facebook Maqueta -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p6Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p6-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Facebook Maqueta</h5>
+                                    <p class="card-text">Creación de una maqueta de Facebook, con otros elementos
+                                        adicionales, para aplicar y desarrollar conocimientos en
+                                        <strong>Bootstrap</strong>.
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>Bootstrap, HTML, CSS</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 6: Facebook Maqueta -->
+                            <div class="modal fade" id="p6Modal" tabindex="-1" aria-labelledby="p6ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p6ModalLabel">Facebook Maqueta</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p6-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p6ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/Facebook-Mockup" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 6: Facebook Maqueta -->
+                            <div class="modal fade" id="p6ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p6ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p6ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Creación de una maqueta de Facebook, con otros elementos adicionales,
+                                                para aplicar y desarrollar conocimientos en <strong>Bootstrap</strong>.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Implementando <strong>Bootstrap</strong> en su sitio conectando
+                                                    correctamente los CDN necesarios (conecte el css y los scripts
+                                                    necesarios para que <strong>Bootstrap</strong> funcione
+                                                    correctamente).</li><br>
+                                                <li>Header sugerido tanto para vistas móviles como para dispositivos más
+                                                    grandes, use un solo punto de interrupción para el cambio de
+                                                    apariencia.</li><br>
+                                                <li>Uso de las clases de <strong>Bootstrap</strong> necesarias para
+                                                    ajustar el margen (margin) y el relleno (padding).</li><br>
+                                                <li>Uso de las clases de fondo (background) de
+                                                    <strong>Bootstrap</strong> para colorear los botones.
+                                                </li><br>
+                                                <li>Grupo de tres columnas con el uso de <strong>Grid</strong>.</li><br>
+                                                <li>En vista móvil solo queda visible la columna central, las otras dos
+                                                    se ocultan. Eso incluye además los elementos de la barra superior,
+                                                    solo quedan visibles los 5 elementos que están en la parte central.
+                                                </li><br>
+                                                <li>Elementos del header convertidos en una barra de navegación nav.
+                                                </li><br>
+                                                <li>Los elementos del nav, modificados para que sea
+                                                    <strong>dropdown</strong>.
+                                                </li><br>
+                                                <li>Agregado un formulario que simule una forma de registro.</li><br>
+                                                <li>Los campos del formulario son validables, tienen placeholder, los
+                                                    inputs deben corresponder según el tipo de dato que se pide (text,
+                                                    password, email) Además de incluir el checkbox en el formulario.
+                                                </li><br>
+                                                <li>Ajuste en el header el logo agrupado como corresponde con su
+                                                    navbar-brand, al igual que el input de "buscar".</li><br>
+                                                <li>Agregado una Card. Tomando en cuenta los indicadores Header, Content
+                                                    y Footer.</li><br>
+                                                <li>Agregado un carrusel, con tres pantallas, contenedoras de 5 imágenes
+                                                    (items).</li><br>
+                                                <li>Programado en las imágenes o pantallas del Carrusel, que al hacer
+                                                    click en ellos se despliegue una ventana Modal.</li><br>
+                                                <li>Preparado el botón de la derecha, activa un contenido Collapse. El
+                                                    contenido Collapse, debe esta debajo de la caja que contiene el
+                                                    botón.</li><br>
+                                                <li>Preparado los elementos de la columna izquierda para que sean
+                                                    contenedores Accordion, que al hacer click en ellos se despliega un
+                                                    contenido.</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p6Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- NIVEL 3 -->
+                        <div class="row gap-5 mb-5 justify-content-center">
+
+                            <!-- PROYECTO 7: Dos Formularios: Validación -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p7Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p7-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dos Formularios: Validación</h5>
+                                    <p class="card-text">HTML que contiene 2 formularios. En un archivo
+                                        <strong>Javascript</strong> aparte, están definidos 3 arreglos vacíos para
+                                        almacenar los nombres de usuarios, los correos y las claves.
+                                    </p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>Javascript, HTML, CSS</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 7: Dos Formularios: Validación -->
+                            <div class="modal fade" id="p7Modal" tabindex="-1" aria-labelledby="p7ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p7ModalLabel">Dos Formularios: Validación
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p7-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p7ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/Two-Forms-Validation" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 7: Dos Formularios: Validación -->
+                            <div class="modal fade" id="p7ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p7ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p7ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                HTML que contiene 2 formularios. En un archivo
+                                                <strong>Javascript</strong> aparte, están definidos 3 arreglos vacíos
+                                                para almacenar los nombres de usuarios, los correos y las claves.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>En el formulario 2, se validan en el evento “onkeypress” que el
+                                                    usuario no pueda escribir espacios en blanco en el input "Nombre de
+                                                    usuario".</li><br>
+                                                <li>En el evento “onblur” del input "Dirección de correo electrónico",
+                                                    usando expresiones regulares, se valida que el correo electrónico
+                                                    tenga el formato correcto.</li><br>
+                                                <li>Se valida en el evento “onblur” del campo "Contraseña", que la clave
+                                                    tenga al menos 4 dígitos. En el evento “onkeyup” se valida que el
+                                                    campo "Confirmación de la contraseña", cuyo valor escrito en ese
+                                                    input sea igual al valor escrito en el input "Contraseña".</li><br>
+                                                <li>En el evento "onclick" del botón "Registrarse" del formulario 2, se
+                                                    valida que ninguno de los inputs de ese formulario este vacío, que
+                                                    la clave y la confirmación de la clave sean iguales y que ni el
+                                                    correo ni el nombre de usuario existan en los arreglos. En caso de
+                                                    existir, se muestra un div con un mensaje de error, en caso
+                                                    contrario, se agregan los valores a los respectivos arreglos, se
+                                                    muestra un mensaje de confirmación de registro exitoso.</li><br>
+                                                <li>En el formulario 1, se programó que cuando el usuario haga click en
+                                                    el botón "Acceder", se busque lo que el usuario escribió en el campo
+                                                    "nombre de usuario o correo" en los arreglos de nombres de usuarios
+                                                    o correos (puede ser uno u otro, no ambos a la vez) y lo que
+                                                    escribió en el campo "Contraseña" en el arreglo de claves. Cuando
+                                                    ambos valores son encontrados en los arreglos, se envía al usuario a
+                                                    una página de bienvenida (usando window.location), en caso de que no
+                                                    sean encontrados los datos, se muestra un div con un mensaje de
+                                                    error: "Usuario o clave no existen".</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p7Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PROYECTO 8: Ferrari SASS Avanzado -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p8Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p8-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Ferrari SASS Avanzado</h5>
+                                    <p class="card-text">Maqueta web con temática de la marca automotriz Ferrari. Para
+                                        implementar preprocesador <strong>SASS</strong> con funciones avanzadas,
+                                        estructuras condicionales, operaciones, etc.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>HTML, CSS, SASS</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 8: Ferrari SASS Avanzado -->
+                            <div class="modal fade" id="p8Modal" tabindex="-1" aria-labelledby="p8ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p8ModalLabel">Ferrari SASS Avanzado</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p8-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p8ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/Ferrari-SASS-Advanced-Page" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 8: Ferrari SASS Avanzado -->
+                            <div class="modal fade" id="p8ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p8ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p8ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Maqueta web con temática de la marca automotriz Ferrari. Para
+                                                implementar preprocesador <strong>SASS</strong> con funciones avanzadas,
+                                                estructuras condicionales, operaciones, etc.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Realización de un mixin: {border-radius: 1em 0 em 0; padding: 2em;
+                                                    display:flex; justify-content:center; align-items:center; } para dar
+                                                    formato a un botón. Se realizo un "marcador de posición o
+                                                    Placeholder" para dar formato a un botón (Placeholder).</li><br>
+                                                <li>Creación de una variable global en <strong>SASS</strong> llamada
+                                                    anchoBoton. Inicializada en el valor de 25px.</li><br>
+                                                <li>Creada una función en un archivo parcial de <strong>SASS</strong>; e
+                                                    importado en el archivo <strong>SASS</strong> principal, la función
+                                                    llamada: formatoBoton recibe por parámetros una variable $ancho y
+                                                    otras tres variables declaradas formalmente de la función como $r,
+                                                    $g, $b que coinciden con el color RGB que se requiera al elemento
+                                                    generado (el botón).</li><br>
+                                                <li>Establecido un WARN con una condición, si alguno de los valores este
+                                                    fuera del rango de [ 0 - 225] Teniendo en cuenta que el color RGB
+                                                    recibe estos datos solo en ese rango se debe advertir en caso de que
+                                                    al momento de llamar a la función con dichos parámetros erróneos el
+                                                    programador pueda estar enterado.</li><br>
+                                                <li>Se asegura de establecer algún color RGB como argumentos opcionales,
+                                                    en caso de que al llamar a la función no se pasen dichos parámetros,
+                                                    es decir, permitiendo que pasar los parámetros $r, $g, $b sea
+                                                    opcional para dicha función.</li><br>
+                                                <li>Dentro de dicha función se realiza una operación aritmética que
+                                                    multiplica: $ancho * 5; Luego una estructura condicional en la que
+                                                    solo si el resultado de la multiplicación es mayor a 125px ejecute
+                                                    la siguiente la instrucción: width = $ancho; Además se ajusta el
+                                                    background-color del elemento en base a los colores que requiere por
+                                                    parámetro esta función.</li><br>
+                                                <li>Creada otra estructura condicional en la que si el resultado de la
+                                                    multiplicación es menor a 100 entonces emite un mensaje de error en
+                                                    la consola indicando: "el valor del ancho debe ser mayor a 20".</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p8Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PROYECTO 9: Portafolio Aviones -->
+                            <div class="cartas-proyecto card col-10 col-lg" style="width: 18rem;">
+                                <a href="#!" class="text-decoration-none" data-bs-toggle="modal"
+                                    data-bs-target="#p9Modal">
+                                    <img src="./IMG/PROJECTS/CARDS/p9-card.png" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Portafolio Aviones</h5>
+                                    <p class="card-text">Maqueta web, funciones de <strong>CSS GRID, flexbox, reglas
+                                            media querys</strong> para establecer los breakpoints.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-primary"><strong class="text-black">Tech:
+                                        </strong>HTML, CSS</li>
+                                </ul>
+                            </div>
+
+                            <!-- Modal PROYECTO 9: Portafolio Aviones -->
+                            <div class="modal fade" id="p9Modal" tabindex="-1" aria-labelledby="p9ModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p9ModalLabel">Ferrari SASS Avanzado</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="./IMG/PROJECTS/EXTEND/p9-extend.png" width="100%"
+                                                alt="Captura extendida del proyecto">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-target="#p9ModalToggle2" data-bs-toggle="modal">Ver
+                                                    Detalles</button>
+                                                <a class="btn btn-primary" href="https://github.com/osman-az/Fighter-Aircraft-Portfolio" target="_blank">Ver en GitHub</a>
+                                                <!-- <button type="button" class="btn btn-primary">Preview</button> -->
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal-Detalles PROYECTO 9: Portafolio Aviones -->
+                            <div class="modal fade" id="p9ModalToggle2" aria-hidden="true"
+                                aria-labelledby="p9ModalToggle2Label2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="p9ModalToggle2Label2">Descripción Detallada
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                Maqueta web, funciones de <strong>CSS GRID, flexbox, reglas media
+                                                    querys</strong> para establecer los breakpoints.
+                                                <br><br>
+                                                <strong>Características:</strong>
+                                            <ol>
+                                                <li>Archivos index.html, estilos.css y su correspondiente carpeta de
+                                                    imágenes. CSS object-fit y aplicado en las imágenes del portafolio.
+                                                </li><br>
+                                                <li>Construcción de la página web usando CSS GRID y flexbox. Maqueta
+                                                    adaptada para pantallas mayores a 1024px.</li><br>
+                                                <li>Media queries establecidas para una vista horizontal (landscape)
+                                                    entre 724px y 1024px, puede ordenar las imágenes como prefieran.
+                                                </li><br>
+                                                <li>Se establecieron media queries para la vista móvil.</li><br>
+                                                <li>Al pasar el mouse sobre alguna de las imágenes del portafolio, éstas
+                                                    muestran un fondo transparente como se muestra en la imagen
+                                                    adjuntada.</li>
+                                            </ol>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-primary" data-bs-target="#p9Modal"
+                                                data-bs-toggle="modal">Regresar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col-lg-2 d-none d-lg-block"></div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto" class="container-fluid bg-dark">
+            <div class="row">
+
+                <form id="osmanPortafolioForm" action="https://formspree.io/f/mdovkndp" method="POST"
+                    class="col d-flex flex-column align-items-center justify-content-center">
+                    <h2 class="col-6 col-lg-10 text-center fs-1 text-info">CONTACTO</h2>
+                    <div class="mb-3 col-10 col-lg-8">
+                        <label for="nameInput" class="form-label text-light">Nombre</label>
+                        <input name="name" type="text" class="form-control" id="nameInput" placeholder="">
+                    </div>
+                    <div class="mb-3 col-10 col-lg-8">
+                        <label for="emailInput" class="form-label text-light">Dirección de correo electrónico</label>
+                        <input name="email" type="email" class="form-control" id="emailInput"
+                            placeholder="nombre@correo.com">
+                    </div>
+                    <div class="mb-3 col-10 col-lg-8">
+                        <label for="menssgeTextarea" class="form-label text-light">Mensaje</label>
+                        <textarea name="message" class="form-control" id="menssgeTextarea" rows="4"></textarea>
+                    </div>
+                    <div class="mb-3 col-6 col-lg-8 d-flex flex-column align-items-center justify-content-center">
+                        <input class="btn btn-light col col-lg-4 mt-4" type="submit" value="Enviar Mensaje">
+                        <img id="loadingGif" class="mt-1 fw-bold" src="./IMG/MISC/cerrar-modal.png" alt="Loading">
+                    </div>
+                    <div class="btn-group mt-2" role="group" aria-label="Medio de contacto">
+                        <button type="button" class="btn btn-light"><a href="https://wa.me/584243662303"
+                                target="_blank"><img src="./IMG/CONTACT/whatsapp-logo.png" width="50px" height="50px"
+                                    alt="Whatsapp"></a></button>
+                        <button type="button" class="btn btn-light"><a href="https://www.linkedin.com/in/osman-az/"
+                                target="_blank"><img src="./IMG/CONTACT/linkedin-logo.png" width="57px" height="57px"
+                                    alt="Linkedin"></a></button>
+                        <button type="button" class="btn btn-light"><a href="https://github.com/osman-az"
+                                target="_blank"><img src="./IMG/CONTACT/github-logo.png" width="54px" height="54px"
+                                    alt="GitHub"></a></button>
+                    </div>
+                    <div class="mt-2 mt-lg-3 col-11 col-lg-8 p-2 bg-info bg-opacity-10 border border-info rounded">
+                        <ul id="ulDatos" class="my-4 lh-lg fw-bold text-light fs-6">
+                            <li><img class="me-1" src="./IMG/CONTACT/google-maps-icon.png" width="5%" height="5%"
+                                    alt="Localizacion">Venezuela Estado Carabobo</li>
+                            <li><img class="me-1" src="./IMG/CONTACT/phone-icon.png" width="5%" height="5%"
+                                    alt="Telefono">+58 0424 3662303</li>
+                            <li><img class="me-1" src="./IMG/CONTACT/email-icon.png" width="5%" height="5%"
+                                    alt="Correo">osmanazuaje.trabajo@gmail.com</li>
+                        </ul>
+                    </div>
+                </form>
+
+                <div class="col d-none d-lg-block align-items-center justify-content-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62833.589499268295!2d-68.02924340343026!3d10.172580039581725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e80678bce61928f%3A0x9f78e9eea8c34272!2sValencia%2C%20Carabobo!5e0!3m2!1ses!2sve!4v1673647464124!5m2!1ses!2sve"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <!-- <footer>
+
+    </footer> -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
+    <!-- jQuery -->
+    <script src="./JQ/jquery-3.6.1.min.js"></script>
+
+    <!-- sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Manejo de Envio de Mensaje en "CONTACTO" -->
+    <script>
+        // DECLARACION DE VARIABLES
+        const formulario = document.querySelector('#osmanPortafolioForm');
+
+        formulario.addEventListener('submit', handleSubmit);
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+
+            const datosFormulario = new FormData(this);
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: datosFormulario,
+                headers: {
+                    'Accept': 'application/json'
+                }
+
+            }
+            )
+            $("#loadingGif").attr('visibility', 'visible');
+            if (response.ok) {
+
+                this.reset();
+
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Mensaje Enviado',
+                    text: 'Gracias por contactarme, te escribiré pronto.',
+                })
+                $("#loadingGif").attr('visibility', 'hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>

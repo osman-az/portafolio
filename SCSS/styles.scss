@@ -1,0 +1,311 @@
+// IMPORTACIONES
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
+
+// VARIABLES
+// Colores
+$azulClaro: #6DB5E7;
+$azulOscuro: #224C8D;
+$bootstrap-dark: #212529;
+$bootstrap-info: #5bc0de;
+
+// Fuentes
+$poppins: 'Poppins', sans-serif;
+$teko: 'Teko', sans-serif;
+
+// Links
+$whatsapp: "https://wa.me/584243662303&text=Hola,%20he%20visto%20tu%20portafolio";
+
+// GENERALES - INICIO
+
+// HEADER - INICIO
+header {
+    box-shadow: 0px 4px 6px 2px rgba(0,0,0,0.75);
+    
+    nav {
+
+        >div {
+
+            #navbarCentro {
+                >ul {
+                    >li {
+                        transition: all 0.3s 0s ease;
+
+                        &:hover {
+                            transform: scale(1.3);
+                        }
+                    }
+                }
+
+                #nav-logo {
+                    width: 190px;
+                    height: 60px;
+                }
+
+            }
+
+            #navbarDerecha {
+
+                >a {
+                    >#linkedin-ico {
+                        cursor: pointer;
+                        transition: all 0.3s 0s ease;
+
+                        &:hover {
+                            transform: scale(1.3);
+                        }
+                    }
+                }
+
+                >a {
+                    >#github-ico {
+                        cursor: pointer;
+                        transition: all 0.3s 0s ease;
+
+                        &:hover {
+                            transform: scale(1.3);
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    >#banner {
+        width: 100%;
+        height: 93vh;
+        background-image: url(../IMG/BANNER/banner-osman-dev.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        // background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        >#contenedor-soy {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: $poppins;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            line-height: 70px;
+            height: 70px;
+            overflow: hidden;
+
+            >#txtEstatico {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                line-height: 70px;
+                height: 70px;
+                // font-size: 30px;
+                // font-weight: 400;
+                color: $azulClaro;
+            }
+
+            >#txtDinamico {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                line-height: 70px;
+                height: 70px;
+
+                li {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    line-height: 70px;
+                    height: 70px;
+                    list-style: none;
+                    color: white;
+                    // font-size: 30px;
+                    // font-weight: 600;
+                    position: relative;
+                    top: 0;
+                    background-color: $azulOscuro;
+                    border-radius: 4px;
+                    overflow: hidden;
+                    animation: slide 8s steps(2) infinite;
+
+                    @keyframes slide {
+                        100% {
+                            top: -140px;
+                        }
+                    }
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        border-left: 4px solid white;
+                        background-color: $azulOscuro;
+                        animation: typing 4s steps(22) infinite;
+                    }
+
+                    @keyframes typing {
+
+                        40%,
+                        60% {
+                            left: 100%;
+                        }
+
+                        100% {
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MAIN - INICIO
+main {
+
+    #sobreMi {
+
+        >div {
+            height: 100%;
+
+            >div:nth-child(1) {
+                // background-color: lightgreen;
+                height: 100%;
+            }
+
+            >div:nth-child(2) {
+                // background-color: lightcoral;
+                height: 100%;
+
+                >#sobreMiDescripcion {
+                    >h2 {
+                        font-family: $teko;
+                        color: $azulOscuro;
+                    }
+                }
+
+                #habilidadesDescripcion {
+
+                    >h2 {
+                        font-family: $teko;
+                        color: $azulOscuro;
+                    }
+                }
+            }
+
+            >div:nth-child(3) {
+                // background-color: lightgreen;
+                height: 100%;
+            }
+        }
+
+    }
+
+    #proyectos {
+        // background-color: lightslategrey;
+        box-shadow: 0px -2px 8px 2px rgba(0,0,0,0.75);
+
+        >div {
+            height: 100%;
+
+            // >div:nth-child(1) {
+            //     background-color: lightslategrey;
+            // }
+
+            >div:nth-child(2) {
+                // background-color: lightsalmon;
+
+                >h2 {
+                    font-family: $teko;
+                    color: $azulClaro;
+                }
+
+                // >p:nth-child(2) {
+                //     border-bottom: 3px solid $azulClaro;
+                //     font-weight: bold;
+                // }
+
+                >div {
+                    div {
+                        .cartas-proyecto {
+                            transition: all 0.3s 0s ease;
+
+                            &:hover {
+                                box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+                            }
+
+                            a {
+                                overflow: hidden;
+
+                                img {
+                                    transition: all 0.3s 0s ease;
+
+                                    &:hover {
+                                        transform: scale(1.3);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            // >div:nth-child(3) {
+            //     background-color: lightslategrey;
+            // }
+        }
+    }
+
+    #contacto {
+        height: 100vh;
+        box-shadow: 0px -2px 8px 2px rgba(0,0,0,0.75);
+
+        >div {
+            height: 100%;
+
+            >form:nth-child(1) {
+                // background-color: lightseagreen;
+                height: 100%;
+
+                >h2:nth-child(1) {
+                    font-family: $teko;
+                    // color: $azulOscuro;
+                }
+
+                #ulDatos {
+                    list-style: none;
+                    font-family: $poppins;
+                    li{
+                        font-size: 0.85em;
+                        // @include media-breakpoint-up(sm) { font-size: 0.5em;}
+                        
+                    }
+
+                }
+
+                #loadingGif {
+                    // visibility: visible;
+                    visibility: hidden;
+                }
+            }
+
+            >div:nth-child(2) {
+                background-color: $bootstrap-dark;
+                height: 100%;
+            }
+        }
+    }
+}
