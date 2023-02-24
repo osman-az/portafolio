@@ -214,47 +214,35 @@ main {
     }
 
     #proyectos {
-        // background-color: lightslategrey;
         box-shadow: 0px -2px 8px 2px rgba(0,0,0,0.75);
 
         >div {
             height: 100%;
 
-            // >div:nth-child(1) {
-            //     background-color: lightslategrey;
-            // }
-
             >div:nth-child(2) {
-                // background-color: lightsalmon;
-
+               
                 >h2 {
                     font-family: $teko;
                     color: $azulClaro;
                 }
-
-                // >p:nth-child(2) {
-                //     border-bottom: 3px solid $azulClaro;
-                //     font-weight: bold;
-                // }
-
+                
                 >div {
                     div {
                         .cartas-proyecto {
-                            transition: all 0.3s 0s ease;
+                            transition: all 0.6s 0s ease;
 
                             &:hover {
                                 box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+                                img{
+                                    transform: scale(1.3);
+                                }
                             }
 
                             a {
                                 overflow: hidden;
 
                                 img {
-                                    transition: all 0.3s 0s ease;
-
-                                    &:hover {
-                                        transform: scale(1.3);
-                                    }
+                                    transition: all 0.6s 0s ease;
                                 }
                             }
                         }
@@ -263,9 +251,6 @@ main {
 
             }
 
-            // >div:nth-child(3) {
-            //     background-color: lightslategrey;
-            // }
         }
     }
 
