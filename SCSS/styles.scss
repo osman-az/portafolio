@@ -340,6 +340,12 @@ main {
                 }
 
                 >#educacionProgFrontJunior {
+                    padding-bottom: 4%;
+                    border-bottom: $azulOscuro solid 4px;
+                    @include carreras();
+                }
+
+                >#educacionProgFrontMaster {
                     @include carreras();
                 }
             }

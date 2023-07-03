@@ -203,6 +203,10 @@ main #educacion > div > div:nth-child(2) > #educacionFundProg > div:nth-child(4)
 main #educacion > div > div:nth-child(2) > #educacionFundProg > div:nth-child(5) a {
   font-family: "Teko", sans-serif;
 }
+main #educacion > div > div:nth-child(2) > #educacionProgFrontJunior {
+  padding-bottom: 4%;
+  border-bottom: #224C8D solid 4px;
+}
 main #educacion > div > div:nth-child(2) > #educacionProgFrontJunior > a {
   text-decoration: none;
 }
@@ -235,6 +239,40 @@ main #educacion > div > div:nth-child(2) > #educacionProgFrontJunior > div:nth-c
   border-bottom: #224C8D 2px solid;
 }
 main #educacion > div > div:nth-child(2) > #educacionProgFrontJunior > div:nth-child(5) a {
+  font-family: "Teko", sans-serif;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > a {
+  text-decoration: none;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > a > h2 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > h5 {
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > div:nth-child(3) > div:nth-child(1) > h4 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+  border-bottom: #224C8D 2px solid;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > div:nth-child(3) > div:nth-child(2) h4 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+  border-bottom: #224C8D 2px solid;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > div:nth-child(4) > div:nth-child(1) h4 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+  border-bottom: #224C8D 2px solid;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > div:nth-child(4) > div:nth-child(2) h4 {
+  font-family: "Teko", sans-serif;
+  color: #224C8D;
+  border-bottom: #224C8D 2px solid;
+}
+main #educacion > div > div:nth-child(2) > #educacionProgFrontMaster > div:nth-child(5) a {
   font-family: "Teko", sans-serif;
 }
 main #contacto {
