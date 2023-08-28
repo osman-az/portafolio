@@ -6,6 +6,16 @@ header {
 header nav {
   height: 12vh;
 }
+@media screen and (max-width: 768px) {
+  header nav {
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  header nav {
+    height: 42vh;
+  }
+}
 header nav > div {
   height: 95%;
 }
@@ -46,6 +56,14 @@ header > #banner {
   align-items: center;
   color: white;
 }
+header > #banner h1 {
+  font-size: 28px;
+}
+@media screen and (max-width: 576px) {
+  header > #banner h1 {
+    font-size: 20px;
+  }
+}
 header > #banner > #contenedor-soy {
   margin: 0;
   padding: 0;
@@ -59,6 +77,12 @@ header > #banner > #contenedor-soy {
   line-height: 70px;
   height: 70px;
   overflow: hidden;
+  font-size: 28px;
+}
+@media screen and (max-width: 576px) {
+  header > #banner > #contenedor-soy {
+    font-size: 15px;
+  }
 }
 header > #banner > #contenedor-soy > #txtEstatico {
   margin: 0;
